@@ -18,11 +18,12 @@ const propTypes = {
 const PublicHeader = ({ showNavigation }) => (
   <Collapse className="navbar-collapse navbar-dark" isOpen={showNavigation}>
     <ul className="navbar-nav mr-auto">
-      <NavItem path="/">Home</NavItem>
+        <NavItem path="/">Home</NavItem>
+        <NavItem path="/">O nas</NavItem>
+        <NavItem path="/">Cennik</NavItem>
+        <NavItem path="/">Jazdy</NavItem>
     </ul>
     <ul className="navbar-nav">
-      <NavItem path="/login">Login</NavItem>
-      <NavItem path="/register">Register</NavItem>
     </ul>
   </Collapse>)
 
